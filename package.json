@@ -1,5 +1,6 @@
 {
   "name": "grover-timeline",
+  "description": "A timeline of my achievements and learnings while working at Grover, Berlin.",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
