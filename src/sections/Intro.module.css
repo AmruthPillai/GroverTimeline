@@ -1,0 +1,15 @@
+.container {
+  @apply flex flex-col gap-16;
+}
+
+.container > img {
+  @apply opacity-0;
+}
+
+.collaboration {
+  @apply absolute -mt-5 text-2xl opacity-0 md:text-4xl font-brush;
+}
+
+.next {
+  @apply absolute flex items-center justify-center opacity-0 bottom-4 md:bottom-auto md:right-4;
+}

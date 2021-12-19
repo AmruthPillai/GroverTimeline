@@ -1,0 +1,15 @@
+.container {
+  @apply grid w-screen grid-cols-2 gap-10 px-8 md:grid-cols-3 md:gap-20;
+}
+
+.statistic {
+  @apply text-center opacity-0;
+}
+
+.statistic > h2 {
+  @apply mb-1 font-mono text-4xl md:mb-2 md:text-5xl;
+}
+
+.statistic > h4 {
+  @apply text-xs font-semibold md:text-base;
+}

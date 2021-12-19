@@ -1,0 +1,7 @@
+.container {
+  @apply flex flex-nowrap;
+}
+
+.container > section {
+  @apply flex items-center justify-center flex-shrink-0 min-w-[100vw] h-screen;
+}
